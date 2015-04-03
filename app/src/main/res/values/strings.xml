@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Applikation</string>
 
-    <string name="titel">Touristic</string>
+    <string name="titel">TouristGuide</string>
+    <string name="titel2">Welcome</string>
     <string name="action_settings">Settings</string>
 </resources>
