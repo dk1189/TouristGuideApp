@@ -4,7 +4,6 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
-    android:background="#ff8f8b82"
     android:background="@drawable/stuttgart">
 
     <TextView android:text="@string/titel" android:layout_width="wrap_content"
@@ -13,7 +12,7 @@
         android:textSize="50sp"
         android:textColor="#fffffbf0"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="false"/>/>
+        android:layout_centerVertical="false"/>
 
     <!--<TextView android:text="@string/titel2" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,16 +23,17 @@
         android:textColor="#ff06070a"/>-->
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Start"
         android:id="@+id/button"
-        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:clickable="true"
-        android:layout_marginTop="400dp"
+        android:onClick="buttondruck"
+        android:layout_marginTop="375dp"
         android:textSize="30dp"
-        android:background="#ffffac00"/>
+        android:background="#ffffac00"
+        android:layout_gravity="center" />
 
 
 </RelativeLayout>
