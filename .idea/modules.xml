@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Applikation.iml" filepath="$PROJECT_DIR$/Applikation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Applikation-master.iml" filepath="$PROJECT_DIR$/Applikation-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../google-play-services_lib/google-play-services_lib.iml" filepath="$PROJECT_DIR$/../google-play-services_lib/google-play-services_lib.iml" />
     </modules>
   </component>
 </project>
