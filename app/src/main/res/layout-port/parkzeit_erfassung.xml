@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Chronometer
+        android:id="@+id/chronometer_parkzeit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:textSize="60dp"
+        android:gravity="center_horizontal"
+        android:background="#ff00e0de" />
+
+    <TextView
+        android:id="@+id/txt_preis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:text="Preis: "
+        style="?android:listSeparatorTextViewStyle"/>
+
+    <EditText
+        android:id="@+id/editText_preis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/txt_preis_pro_zeitintervall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:text="Preis pro Zeitintervall:"
+        style="?android:listSeparatorTextViewStyle"/>
+
+    <Spinner
+        android:id="@+id/spinner_zeitintervall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        />
+
+    <TextView
+        android:id="@+id/txt_zu_bezahlender_betrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:text="Parkgebühren:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:text="Start" />
+
+</LinearLayout>

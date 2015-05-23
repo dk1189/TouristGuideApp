@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Applikation.iml" filepath="$PROJECT_DIR$/Applikation.iml" />
+<<<<<<< HEAD
+=======
+      <module fileurl="file://$PROJECT_DIR$/Applikation-master.iml" filepath="$PROJECT_DIR$/Applikation-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Applikation2.iml" filepath="$PROJECT_DIR$/Applikation2.iml" />
+>>>>>>> 864c002497c520080bb58fda6c9026a6a60b92d5
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/google-play-services/google-play-services.iml" filepath="$PROJECT_DIR$/google-play-services/google-play-services.iml" />
+    </modules>
+  </component>
+</project>
+

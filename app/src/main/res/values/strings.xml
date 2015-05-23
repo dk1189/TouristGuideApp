@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TouristGuide</string>
+
+    <string name="titel">TouristGuide</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_google_play_services">GooglePlayServicesActivity</string>
+    <string name="title_activity_kategorie">kategorieActivity</string>
+
+</resources>

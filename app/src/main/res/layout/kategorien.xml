@@ -1,0 +1,82 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="pvc.applikation.KategorieActivity">
+    
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Einkaufen"
+        android:id="@+id/radiobutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false"
+        android:layout_below="@+id/radiobutton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gastronomie"
+        android:id="@+id/radiobutton2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false"
+        android:layout_below="@+id/radiobutton2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kultur&amp;Theater"
+        android:id="@+id/radiobutton3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false"
+        android:layout_below="@+id/radiobutton3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sehenswürdigkeiten&amp;Plätze"
+        android:id="@+id/radiobutton4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/radiobutton4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:checked="false"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parkhäuser"
+        android:id="@+id/radiobutton5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/radiobutton5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:checked="false"/>
+    </RadioGroup>
+
+
+<!--    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anzeigen"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="buttondruck3"
+        android:background="@drawable/mybutton"/>-->
+
+</RelativeLayout>
+
+
